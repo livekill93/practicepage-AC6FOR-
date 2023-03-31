@@ -1,0 +1,68 @@
+/*common*/
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #990303;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+header {}
+
+header .inner {
+    background-color: #131313;
+    width: 900px auto;
+    height: 160px;
+    margin: auto;
+    position: relative;
+
+
+
+}
+
+header .logo {
+    background-color: #131313;
+    width: auto;
+    height: auto;
+    left: auto;
+}
+
+/*main-menu*/
+header .inner .main-menu {
+    display: flex;
+    justify-content: flex-end; /* 이전에는 center로 설정되어 있었습니다 */
+    align-items: center;
+  }
+  
+
+/*main-menu*/
+header .inner .main-menu .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+ 
+}
+
+
+header .inner .main-menu .item .item__name {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    right: auto;
+    color: aliceblue;
+}
+header .inner .main-menu .item .item__name:hover {
+    background-color: #fff;
+    color: rgb(48, 0, 0);
+}
+
+header .inner .main-menu .item .item__contents {
+    font-size: 14px;
+}
