@@ -1,0 +1,1 @@
+!function(a){"use strict";window.dataLayer=window.dataLayer||[],window.dataLayer.push(a.bnee_gtm),window.dataLayer.push(a.bnee_gtm_newsletter),window.dataLayer.push(a.bnee_gtm_search)}((jQuery,Drupal,drupalSettings));;
