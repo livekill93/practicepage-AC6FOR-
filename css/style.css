@@ -12,52 +12,77 @@ a {
 }
 
 /*header*/
-header {
+header {}
 
-}
 header .inner {
   background-color: #181818;
-  width: 1920px;
-  height: 160px;
+  width: 1920px auto;
+  height: 120px;
   margin: auto;
   position: relative;
+  display: flex;
 }
 
 header .logo {
   width: auto;
   height: auto;
   left: auto;
+
+  padding: 10px;
 }
 
 /*main-menu*/
 header .inner ul.main-menu {
-  padding: 0%;
+  padding: 1%;
   background-color: #af4747;
-  right: 0;
+  width:  700px auto;
+  height: 130px auto;
   margin: 0 auto;
+  position: relative;
   display: flex;
-
+  padding: 20px 20px 34px 20px;
+  z-index: 1;
 }
 
 header .inner ul.main-menu .item {
-  background-color: #a9b95e;
-  display: flex;
-  right: 0 auto;
- 
+  font-size: 26px;
+  padding: 20px 20px 34px 20px;
+
 }
 
 header .inner ul.main-menu .item .item__name {
+  box-sizing: 120px;
+
   background-color: #5b4888;
-  display: flex;
+  border-radius: 15px 5px 0 0;
+  
+
 }
 
-header .inner ul.main-menu .item .item__contents {
-  background-color: #4c8856;
+header .inner ul.main-menu .item:hover .item__name {
+  background-color: #ffffff;
+  color: #181818;
 }
+
+header .inner ul.main-menu .item .item__contents {}
+header .inner ul.main-menu .item:hover .item__contents {
+  display: block;
+}
+
 
 header .inner ul.main-menu .item .item__contents .contents__menu {
   background-color: #4771af;
 }
-header .inner ul.main-menu .item .item__contents .contents__menu .inner {
+
+header .inner ul.main-menu .item .item__contents:hover .contents__menu .inner {
   background-color: #6e90c4;
+  color: #af4747;
+  padding: 5px 0;
+}
+header .inner ul.main-menu .item .item__contents:hover .contents__menu .inner li ul li {
+  background-color: #6e90c4;
+  color: #aa8282;
+  padding: 5px 0;
+  cursor: pointer;
+  
 }
