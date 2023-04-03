@@ -12,18 +12,22 @@ a {
   text-decoration: none;
 }
 
-h3 {
-  height: 50PX;
+.info {
+  height: 100;
+  background-image: url("../image/acvifor-separator-target-left.png");
+  background-repeat: no-repeat;
+  padding: 1px 1px 5px 5xp;
+  margin-top: 20px ;
 }
 
-h3 .infomation {
-  margin-left: 3%;
+.info .infomation {
+  margin-left: 5%;
   font-size: 36px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  background-image: url("..\image\acvifor-separator-target-left.png");
-  padding: 5px 5px 5px 5px;
+
+  padding: 15px 15px 0 0;
 }
 
 h10 {
@@ -98,11 +102,12 @@ header {}
 
 header .inner {
   background-color: #181818;
-  width: 1920px auto;
-  height: 200px;
-  margin: auto;
+  width: 1440px auto;
+  height: 160px ;
+  margin: 0;
   position: relative;
   display: flex;
+  padding: 10px;
 }
 
 header .logo {
@@ -115,23 +120,25 @@ header .logo {
 /*main-menu*/
 header .main-menu {
   position: absolute;
-  bottom: 0;
-  right: 0;
+
+  right: 100px;
   z-index: 1;
   display: flex;
+  margin-top: 100px;
+  
 }
 
 header .main-menu .item .item__name {
-  padding: 10px 20px 24px 10px;
+  padding: 25px 20px 15px 15px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 20px;
-
+  
 }
 
 header .main-menu .item:hover .item__name {
   background-color: #ffffff;
   color: #000000;
-  border-radius: 10px 1px 0 0;
+  border-radius: 15px 0 0 0;
   font-size: 20px;
 }
 
@@ -144,11 +151,13 @@ header .main-menu .item .item__contents {
 
 header .main-menu .item:hover .item__contents {
   display: block;
+  padding: auto;
 
 }
 
 header .main-menu .item .item__contents .contents__menu {
-  background-color: #925c40;
+
+
 }
 
 header .main-menu .item .item__contents .contents__menu>ul {
@@ -161,13 +170,13 @@ header .main-menu .item .item__contents .contents__menu>ul>li {
 }
 
 header .main-menu .item .item__contents .contents__menu>ul>li h4 {
-  padding: 3px 0 12px 0;
+  padding: 3px 5px 1px 5px;
   font-size: 16px;
   color: #fff;
 }
 
 header .main-menu .item .item__contents .contents__menu>ul>li ul li {
-  padding: 5px 5px;
+  padding: 25px 60px 25px 60px;
   font-size: 16px;
 
   cursor: pointer;
@@ -281,7 +290,7 @@ header .main-menu .item .item__contents .contents__menu>ul>li ul li:hover {
   border: 2px solid #333;
   border-radius: 50%;
   top: 300px;
-  z-index: 1;
+ z-index: 1;
   color: #333;
 }
 
@@ -305,6 +314,25 @@ header .main-menu .item .item__contents .contents__menu>ul>li ul li:hover {
 .promotion .swiper-button-next::after {
   display: none;
 }
+
+/*중앙*/
+.middle {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  background-image: url("../image/acvifor-header-desktop.jpg");
+}
+
+.middle .bgimages {
+  padding: 110px 0;
+}
+
+.middle .bgimages .cover {
+ 
+
+}
+
 
 /*FOOTER*/
 footer {
@@ -391,9 +419,7 @@ footer .copyright {
 }
 
 footer .logo {
-  margin-left: auto;
-  margin-right: auto;
-
+  margin-left: 35%;
 }
 
 
