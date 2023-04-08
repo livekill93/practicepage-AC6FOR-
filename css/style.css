@@ -248,7 +248,8 @@ header .main-menu .item .item__contents .contents__menu>ul>li ul li:hover {
 .promotion .swiper-slide {
   position: relative;
   opacity: .5;
-  transition: opacity 1s;
+  transition: 1;  
+  opacity 1s;
 }
 
 .promotion .swiper-slide-active {
