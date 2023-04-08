@@ -211,22 +211,21 @@ header .main-menu .item .item__contents .contents__menu>ul>li ul li:hover {
 .youtube .youtube__cover {}
 
 .youtube .inner {
-  
- height: 100%;
+
+  height: 100%;
 }
 
 /*PROMOTION*/
 .promotion {
   display: flex;
   justify-content: center;
- 
+
   overflow: hidden;
   position: relative;
   height: 663px;
-  transition: 0;
-  height: .4s;
+  transition: height .4s;
   top: 20px;
-  
+
 
 }
 
@@ -244,8 +243,7 @@ header .main-menu .item .item__contents .contents__menu>ul>li ul li:hover {
 .promotion .swiper-slide {
   position: relative;
   opacity: .5;
-  transition: 0;  
-  opacity: 1s;
+  transition: opacity 1s;
 }
 
 .promotion .swiper-slide-active {
